@@ -6,3 +6,12 @@ function f1(){
     }
     document.getElementById("f2").textContent=reve
 }
+
+function m1(){
+    const Odata=document.getElementById("data").value
+    let Cdata=" ";
+    for(let i=0;i<Odata.length;i++){
+        Cdata+=Odata[i].toUpperCase()
+    }
+    document.getElementById("answer").value=Cdata
+}
